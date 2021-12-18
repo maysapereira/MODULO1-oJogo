@@ -7,7 +7,7 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './IF-aliceOK.html'
+        return location = './IF-aliceOk.html'
     } else if(decida == 2){
         return location = './IF-perguntaMelissa.html'
     } else {
