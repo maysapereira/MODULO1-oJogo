@@ -1,0 +1,93 @@
+/* página-personagens
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=VT323&display=swap');
+
+body{
+    font-family: 'VT323', monospace;
+    background-color: whitesmoke;
+}
+
+header{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrição{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.escolha{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.personagens{
+    width: 100%;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.per1, .per2, .per3 {
+    width: 30%;
+    background-color: pink;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.per1:hover, .per2:hover, .per3:hover{
+
+    background-color: lightpink;    
+    transform: scale(110%);
+}
+
+.nome{
+    font-size: 40px;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+img{
+    width: 250px;
+    padding: 80px;
+    border-radius: 25%;
+}
+
+.botao{
+    width: 100%;
+    height:100px;
+    font-size: 30px;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    border: none;
+    background-color: pink;
+    cursor:pointer;
+	padding:6px 24px;
+}
+
+.botao:hover{
+    background-color: lightpink;
+}
+
+footer{
+    text-align: center;
+}
+
+/* página-fase
+*/
+
