@@ -9,7 +9,7 @@ function escolha (){
     if(decida == 1){
         return location = './aliceFase2-1.html'
     } else if(decida == 2){
-        return location = '../aliceFase2-2.html'
+        return location = './aliceFase2-2.html'
     } else {
         alert('Opção Inválida')
         return escolha();
