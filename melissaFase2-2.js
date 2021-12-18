@@ -7,7 +7,7 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './melissaFase2-1.html'
+        return location = './melissaFase2-3.html'
     } else if(decida == 2){
         return location = './melissaFase3.html'
     } else {
