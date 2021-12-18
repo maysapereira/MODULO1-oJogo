@@ -1,6 +1,6 @@
 function escolha (){
     setTimeout(() => {
-    let decida = prompt('O que Isabelly deve fazer primeiro? \n ( 1 ) \n ( 2 )');
+    let decida = prompt('O que Isabelly deve fazer? \n ( 1 ) \n ( 2 )');
     while(decida != 1 && decida!=2){ 
         alert('Opção inválida, tente novamente')
         decida = prompt ('Escolha 1 ou 2')
