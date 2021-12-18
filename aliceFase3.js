@@ -7,7 +7,7 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './home.html'
+        return location = './index.html'
     } else if(decida == 2){
         return location = './kkkkNamoralQueVacilo.html'
     } else {
