@@ -7,7 +7,7 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './melissaBandEnd.html'
+        return location = './melissaBadEnd.html'
     } else if(decida == 2){
         return location = './gameoverMelissa.html'
     } else {
