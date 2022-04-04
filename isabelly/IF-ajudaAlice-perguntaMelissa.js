@@ -7,11 +7,11 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './IF-perguntaMelissa.html'
+        return location = './IF-ajudaAlice.html'
     } else if(decida == 2){
-        return location = './IF-final2.html'
+        return location = '../gameovers/IF-perguntaMelissa.html'
     } else {
-        alert('Opção Inválida')
+        alert('Opção Inválida, tente novamente')
         return escolha();
     }
     

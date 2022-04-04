@@ -7,9 +7,9 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './aliceFase2-3.html'
+        return location = './alice/aliceFase2-3.html'
     } else if(decida == 2){
-        return location = './aliceFase2-4.html'
+        return location = './alice/aliceFase2-4.html'
     } else {
         alert('Opção Inválida')
         return escolha();

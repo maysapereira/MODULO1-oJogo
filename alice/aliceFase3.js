@@ -9,7 +9,7 @@ function escolha (){
     if(decida == 1){
         return location = './index.html'
     } else if(decida == 2){
-        return location = './kkkkNamoralQueVacilo.html'
+        return location = '../gameovers/kkkkNamoralQueVacilo.html'
     } else {
         alert('Opção Inválida')
         return escolha();

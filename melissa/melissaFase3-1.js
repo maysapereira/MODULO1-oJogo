@@ -7,9 +7,9 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './melissaBadEnd.html'
+        return location = '../gameovers/terapia.html'
     } else if(decida == 2){
-        return location = './gameoverMelissa.html'
+        return location = '../gameovers/melissaGoodEnd.html'
     } else {
         alert('Opção Inválida')
         return escolha();
