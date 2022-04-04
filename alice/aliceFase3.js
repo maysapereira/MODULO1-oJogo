@@ -7,7 +7,7 @@ function escolha (){
     }    
         
     if(decida == 1){
-        return location = './index.html'
+        return location = '../index.html'
     } else if(decida == 2){
         return location = '../gameovers/kkkkNamoralQueVacilo.html'
     } else {

@@ -9,7 +9,7 @@ function escolha (){
     if(decida == 1){
         return location = './alice/aliceFase2-1.html'
     } else if(decida == 2){
-        return location = '../gameovers/aliceQuaseBanEnd.html'
+        return location = '../gameovers/aliceQuaseBadEnd.html'
     } else {
         alert('Opção Inválida')
         return escolha();
