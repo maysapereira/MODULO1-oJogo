@@ -9,7 +9,7 @@ function escolha (){
     if(decida == 1){
         return location = './IF-perguntaMelissa.html'
     } else if(decida == 2){
-        return location = './gameovers/IF-final2.html'
+        return location = '../gameovers/IF-final2.html'
     } else {
         alert('Opção Inválida')
         return escolha();
